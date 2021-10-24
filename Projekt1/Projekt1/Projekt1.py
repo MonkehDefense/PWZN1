@@ -9,7 +9,6 @@ from ascii_graph import Pyasciigraph
 #directory = None #
 
 def main():
-
     # parsing the arguments
     args = parse_args()
     if args.file[-4:] == '.txt':
@@ -37,7 +36,7 @@ def parse_args():
     parser.add_argument('file', help='name of file to analyse')
     parser.add_argument('-n', help='number of words to include in histogram', type=int, default=10)
     parser.add_argument('-l', help='minimum length of a word in histogram', type=int, default=0)
-    parser.add_argument('-ignored', help='list of ignored words', type=list)
+#    parser.add_argument('-ignored', help='list of ignored words', type=list)
     return parser.parse_args()
 
 def read_n_tokenize(file_name, l):
