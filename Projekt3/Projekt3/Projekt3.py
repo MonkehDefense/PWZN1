@@ -25,11 +25,11 @@ def main():
     
     x={h2s_titles[i]: (votes_up[i],votes_down[i]) for i in range(len(h2s_titles))}
     
-    with open(file,'w') as f:
+    with open(file,'w', encoding='utf-8') as f:
         json.dump(x,f)
 
     print(x)
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='utf-8') as f:
         print(json.load(f))
 
 
