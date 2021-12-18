@@ -13,7 +13,6 @@ from numba import njit
 
 
 #przykładowe argumenty:
-#	10 0.3 4.142e-21 15 30
 #	10 0.3 4.142e-21 15 30 q= file=
 
 #np.random.seed(14)
