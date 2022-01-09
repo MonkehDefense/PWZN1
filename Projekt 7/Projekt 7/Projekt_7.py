@@ -62,7 +62,7 @@ class simulation():
 		arr[:tmp] = -1 * arr[:tmp]
 		np.random.shuffle(arr)
 		self.grid = np.reshape(arr,(n,n))
-
+		
 	def __call__(self, steps, file):
 		mi=[]
 		for i in range(steps):
@@ -93,7 +93,7 @@ def xy_points(n,size,i,j,spin=1):
 
 
 #s
-@njit
+#@njit
 def hamiltonian(grid,n,J,H):
 	'''
 	Wylicza energię układu jako E = -J * suma1 -H * suma2

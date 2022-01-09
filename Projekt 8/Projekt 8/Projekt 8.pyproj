@@ -2,19 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ff50910c-d5a6-4b96-8637-9909cad7029f</ProjectGuid>
+    <ProjectGuid>e80476bd-4d39-4737-9416-0de4eba8223f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Projekt_7.py</StartupFile>
+    <StartupFile>Projekt_8.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Projekt 7</Name>
-    <RootNamespace>Projekt 7</RootNamespace>
-    <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>100 0.3 4.142e-21 15 30</CommandLineArguments>
-    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <IsWindowsApplication>False</IsWindowsApplication>
+    <Name>Projekt 8</Name>
+    <RootNamespace>Projekt 8</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,8 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="No_class.py" />
-    <Compile Include="Projekt_7.py" />
+    <Compile Include="Projekt_8.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
