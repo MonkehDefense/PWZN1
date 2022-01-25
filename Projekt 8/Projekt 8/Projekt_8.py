@@ -38,5 +38,5 @@ if __name__ == '__main__':
 	images = initiate()
 	pool = ProcessPoolExecutor(len(images))
 	for img in images:
-#		print(img)
+		print(img)
 		pool.submit(dld_gsc,img)

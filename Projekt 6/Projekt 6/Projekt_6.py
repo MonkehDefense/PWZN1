@@ -22,7 +22,7 @@ def time_it(_func=None,n=1):
 
 
 
-@time_it(n=300)
+@time_it
 def time_waster(array, k):
 	for i in range(k):
 		np.zeros((3,len(array))) if np.random.random() < .5 else array[:]*.1*(5 - np.linalg.norm(array[:]))/np.linalg.norm(array[:])
