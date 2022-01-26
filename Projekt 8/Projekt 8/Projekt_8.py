@@ -1,6 +1,5 @@
 import multiprocessing as mp
 import requests
-import shutil
 import cv2
 from concurrent.futures import ProcessPoolExecutor
 from os.path import join
