@@ -1,8 +1,5 @@
 from bokeh.plotting import figure, row, column
-from bokeh.io import curdoc, show
-from bokeh.util.hex import hexbin
-from bokeh.transform import linear_cmap
-from bokeh.palettes import all_palettes
+from bokeh.io import show
 from bokeh.layouts import layout
 import pandas as pd
 import numpy as np
