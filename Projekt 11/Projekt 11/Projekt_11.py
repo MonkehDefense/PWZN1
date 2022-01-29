@@ -70,6 +70,7 @@ def bokeh_graph(nxgraph):
 	return fig
 
 def main():
+	#https://snap.stanford.edu/data/wiki-Vote.html
 	graph = make_graph('Wiki-Vote.txt')
 	dist_deg = distribution(graph)
 	fig1 = bokeh_hist(dist_deg)
